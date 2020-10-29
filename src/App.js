@@ -24,6 +24,7 @@ import HtmlVsJs from './HtmlVsJS';
 import BlockScropes from './BlockScopes';
 import Ham from './Ham';
 import Cackyhieuchu from './Cackyhieuchu';
+import GitCommand from './GitCommand';
 
 function App () {
     return (
@@ -155,6 +156,7 @@ function App () {
             <Cackyhieuchu id="All3" />
 
             <CacCauLenh id="JSX1" />
+            <GitCommand id="git1"/>
             <Taophantujsx id="JSX2" />
             <Jsxlongnhau id="JSX3" />
             <Commentjsx id="JSX4" />
