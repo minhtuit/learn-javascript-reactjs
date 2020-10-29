@@ -33,7 +33,7 @@ function App () {
                 href="#top"
             >
                 <button>
-                    Go to top
+                    Scroll to top
                 </button>
             </a>
 
