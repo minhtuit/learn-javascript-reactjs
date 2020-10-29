@@ -23,6 +23,7 @@ function CacCauLenh (props) {
                     <li>Di chuyển thư mục cha (thư mục truớc):</li>
                     <img src={image5} alt="Tran Minh Tu" />
                     <li>Đường dẫn tron terminal</li>
+                    
                 </ul>
             </h2>
         </div>
