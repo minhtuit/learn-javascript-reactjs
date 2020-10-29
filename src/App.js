@@ -42,6 +42,9 @@ function App () {
                 <li>
                     <a href="#JSX1">Các câu lệnh trên terminal</a>
                 </li>
+                <li>
+                    <a href="#git1">Các câu lệnh thao tác với Git</a>
+                </li>
             </h2>
 
             <h1>Mục lục ôn tập JavaScript:</h1>
