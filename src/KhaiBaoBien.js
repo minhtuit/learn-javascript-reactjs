@@ -1,4 +1,5 @@
 import React from 'react';
+import khai_bao_bien from './image/khai_bao_bien.png'
 
 function KhaiBaoBien(props) {
     return(
@@ -6,9 +7,10 @@ function KhaiBaoBien(props) {
             <h1>Khai báo biến trong JavaScript</h1>
             <h2>Khai báo biến ta sử dụng từ khoá:</h2>
             <h4>
-                <p>- var tenBien; (Cách sử dụng từ giờ trở đi không dùng nữa, là phiên bản kết hợp cả let và const)</p>
-                <p>- const tenBien = giaTri; (Dùng để khai báo 1 biến cố định, không dùng thay đổi giá trị, phải có giá trị ban đầu)</p>
-                <p>- let tenBien; (let tương tự var)</p>
+                <p>var khai báo biến có thể truy cập ở phạm vi hàm số hoặc bên ngoài hàm số, toàn cục.</p>
+                <p>const được sử dụng để khai báo 1 hằng số, và giá trị của nó không thay đổi trong suốt chương trình.</p>
+                <p>let khai báo biến chỉ có thể truy cập được trong block bao quanh nó được xác định bằng cặp {'{}'}</p>
+                <img src={khai_bao_bien} alt="TMT" />
                 <p>Gán giá trị cho biến: tenBien = giaTri;</p>
             </h4>
         </div>

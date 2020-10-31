@@ -1,4 +1,5 @@
 import React from 'react';
+import obj_1 from './image/obj_1.png';
 
 function Obj(props) {
     return(
@@ -7,14 +8,7 @@ function Obj(props) {
             <h2>Tham chiếu đến thuộc tính cuả 1 Object</h2>
             <p>- tenObject.tenThuocTinh hoặc tenObject['tenThuocTinh']</p>
             <h4>VD:</h4>
-            <p>var obj = {'{'}</p>
-            <p>name: 'Tran Minh Tu',</p>
-            <p>age: 18,</p>
-            <p>{'};'}</p>
-            <p>console.log(obj.name);</p>
-            <p>console.log(obj['name']);</p>
-            <p>console.log(obj.age);</p>
-            <p>console.log(obj['age']);</p>
+            <img src={obj_1} alt="TMT" />
             <h3>
                 <ol>
                     <li>Object.assign(): Được sử dụng để sao chép các giá trị cuả tất cả thuộc tính có thể liệt kê từ một hoặc nhiều đối tượng </li>

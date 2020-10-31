@@ -1,4 +1,8 @@
 import React from 'react';
+import function_1 from './image/function_1.png';
+import function_2 from './image/function_2.png';
+import function_3 from './image/function_3.png';
+
 
 function FunctionJS(props) {
     return(
@@ -8,17 +12,11 @@ function FunctionJS(props) {
                 tiếp theo là ngoặc đơn () và cuối cùng là nơi các câu lệnh của function  giữa các dấu ngoặc nhọn {'{}'}.
             </p>
             <h3>- Cách 1:</h3>
-            <p>
-                function tenHam(thamSo1, thamSo2,...) {'{ return giaTri; }'} 
-            </p>
+            <img src={function_1} alt="TMT" />
             <h3>- Cách 2:</h3>
-            <p>
-                const tenHam = function(thamSo1, thamSo2, ...) {'{ return giaTri; }'}
-            </p>
+            <img src={function_2} alt="TMT" />
             <h3>- Cách 3:</h3>
-            <p>
-                const tenHam = (thamSo1,thamSo2) => {'{ return giaTri; }'}
-            </p>
+            <img src={function_3} alt="TMT" />
             <h3>1 lần gọi hàm : tenHam(thamSo1, thamSo2,...)</h3>
 
         </div>

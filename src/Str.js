@@ -1,5 +1,6 @@
 import React from 'react';
 import Obj from './Obj';
+import str_1 from './image/str_1.png';
 
 function Str(props) {
     return(
@@ -10,10 +11,7 @@ function Str(props) {
                 <p>- templates string: `đây là template string: ${'{1 + 2}'}`</p>
                 <p>VD:</p>
             </h3>
-            <p>var ten = 'Tran Minh Tu';</p>
-            <p>var tuoi = 18;</p>
-            <p>var thongTin = `Ten: ${'{ten}'}, tuoi: ${'{tuoi}'}`</p>
-            <p>var loiChao = `Xin chao ${'{ten}'}` {'<=>'} 'Xin chao ' + ten = 'Xin chao Tran Minh Tu'</p>
+            <img src={str_1} alt="TMT" />
         </div>
     );
 }

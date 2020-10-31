@@ -1,4 +1,5 @@
 import React from 'react';
+import toan_tu from './image/toan_tu.png';
 
 function CacToanTu(props) {
     return(
@@ -19,6 +20,7 @@ function CacToanTu(props) {
                     <li>Chia a đi n lần: a /= n {'<=>'} a = a / n</li>
                 </ol>
             </h2>
+            <img src={toan_tu} alt="TMT" />
         </div>
     );
 }
