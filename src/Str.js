@@ -1,5 +1,4 @@
 import React from 'react';
-import Obj from './Obj';
 import str_1 from './image/str_1.png';
 
 function Str(props) {

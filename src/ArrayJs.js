@@ -18,25 +18,25 @@ function ArrayJs(props) {
             <h3>
                 <ol>
                     <li>tenMang(index): Tham chiếu 1 phần tử Array: </li>
-                    <img src={arr_1} atl="TMT" />
+                    <img src={arr_1} alt="TMT" />
                     <li>arr.length: Trả về số phần tử tron mảng đó:</li>
-                    <img src={arr_2} atl="TMT" />
+                    <img src={arr_2} alt="TMT" />
                     <li>arr.concat(arr2): Dùng để kết nối 2 hay nhiều mảng với nhau. Phương thức này sẽ không làm thay đổi các mảng đã có mà thay vào đó sẽ trả về mảng mới:</li>
-                    <img src={arr_3} atl="TMT" />
+                    <img src={arr_3} alt="TMT" />
                     <li>arr.push(x): Thêm phần tử x vào cuối mảng arr:</li>
-                    <img src={arr_4} atl="TMT" />
+                    <img src={arr_4} alt="TMT" />
                     <li>arr.pop(): Xoá phần tử vị trí cuối cùng và trả về mảng đó:</li>
-                    <img src={arr_5} atl="TMT" />
+                    <img src={arr_5} alt="TMT" />
                     <li>arr.shift(): Xoá phần tử đầu mảng:</li>
-                    <img src={arr_6} atl="TMT" />
+                    <img src={arr_6} alt="TMT" />
                     <li>arr.unshift(x): Thêm phần tử x vào đầu mảng:</li>
-                    <img src={arr_7} atl="TMT" />
+                    <img src={arr_7} alt="TMT" />
                     <li>arr.splice(index): Xoá phần tử chỉ mục của nó:</li>
-                    <img src={arr_8} atl="TMT" />
+                    <img src={arr_8} alt="TMT" />
                     <li>arr.slice(): Sao chép 1 mảng arr và trả về mảng sau khi sao chép:</li>
-                    <img src={arr_9} atl="TMT" />
+                    <img src={arr_9} alt="TMT" />
                     <li>arr.forEach(callback): Khi thực thi 1 hàm khi duyệt qua từng phần tử của mảng:</li>
-                    <img src={arr_10} atl="TMT" />
+                    <img src={arr_10} alt="TMT" />
                     <li>arr.map(callback):</li>
                     <p>Ghi chú:</p>
                     <p>- callback là 1 hàm (function) để map mỗi phần tử cuả arr thành 1 phần tử mới</p>

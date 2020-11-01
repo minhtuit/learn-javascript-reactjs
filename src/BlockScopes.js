@@ -28,19 +28,19 @@ function BlockScopes(props) {
                     Function scopes được tạo cho mỗi function(như <strong>doSomething</strong> trên). Một sự khác biệt mà họ có so với phạm bi khối rõ ràng khi sử dụng <strong>var</strong> từ khoá.Các biến
                     được định nghĩa <strong>var</strong> bên trong một phạm vi hàm là được; họ không bị rò rỉ ra khỏi phạm vi đó. Nếu bạn cố gắng truy cập chúng ngoài phạm vi, bạn không thể:
                 </p>
-                <img src={logo1} slt="TMT" /> 
+                <img src={logo1} alt="TMT" /> 
                 <div>
                     <p>
                     Tuy nhiên, khi bạn xác định các biến <strong>var</strong> trong phạm vi khối, bạn hoàn toàn có thể truy cập chúng bên ngoài phạm vi đó sau đó, 
                     điều này có một chút vấn đề. Ví dụ, trong một câu lệnh vòng lặp for chuẩn, nếu biến vòng lặp được xác định,
                     <strong>var</strong> bạn có thể truy cập vào biến đó <strong> sau khi vòng lặp hoàn tất</strong> .
                     </p>
-                    <img src={logo2} slt="TMT" /> 
+                    <img src={logo2} alt="TMT" /> 
                     <p>Đây là lý do tại sao cách được khuyến nghị hơn để khai báo các biến trong JavaScript hiện đại là sử dụng <strong>let</strong> từ khóa thay vì <strong>var</strong> từ khóa.
                      Khi xác định biến với <strong>let</strong>, chúng ta sẽ không gặp phải vấn đề truy cập ngoài phạm vi kỳ lạ này.
                     </p>
                 </div>
-                <img src={logo3} slt="TMT" /> 
+                <img src={logo3} alt="TMT" /> 
                 <br />
                 <p>
                     Tuy nhiên, bạn chỉ nên sử dụng <strong>let</strong> từ khóa khi giá trị của biến cần được thay đổi. 
@@ -48,28 +48,28 @@ function BlockScopes(props) {
                     bạn nên sử dụng <strong>const</strong> từ khóa thay thế, vì vậy hãy để tôi cho bạn biết về nó.
                 </p>
                 <br />
-                <img src={logo4} slt="TMT" /> 
+                <img src={logo4} alt="TMT" /> 
                 <br />
                 <p>
                     Khi bạn thay đổi giá trị của biến, <strong>V</strong> bạn không thực sự thay đổi nội dung của không gian bộ nhớ được liên kết ban đầu <strong>V</strong>.
                     Thay vào đó, bạn đang tạo một không gian bộ nhớ mới và thay đổi <strong>V</strong> nhãn được liên kết với không gian mới đó.
                 </p>
                 <br />
-                <img src={logo5} slt="TMT" /> 
+                <img src={logo5} alt="TMT" /> 
                 <br />
                 <p>
                     Khi bạn sử dụng <strong>const</strong> để xác định một biến, bạn đang hướng dẫn máy tính không chỉ gắn nhãn một khoảng trống trong bộ nhớ mà 
                     <strong>còn không bao giờ thay đổi</strong> nhãn đó. Nhãn sẽ được liên kết vĩnh viễn với cùng một không gian của nó trong bộ nhớ.
                 </p>
                 <br />
-                <img src={logo6} slt="TMT" /> 
+                <img src={logo6} alt="TMT" /> 
                 <br />
                 <p>
                     Lưu ý rằng phần hằng ở đây chỉ là nhãn. Giá trị của những gì trong không gian bộ nhớ vẫn có thể thay đổi (nếu nó có thể thay đổi). 
                     Ví dụ: các đối tượng trong JavaScript có thể thay đổi, vì vậy đối với những điều <strong>V</strong> trên:
                 </p>
                 <br />
-                <img src={logo7} slt="TMT" /> 
+                <img src={logo7} alt="TMT" /> 
                 <br />
                 <p>
                     Điều này cũng áp dụng cho các mảng (vì chúng cũng có thể thay đổi).
@@ -81,7 +81,7 @@ function BlockScopes(props) {
                     bạn cần tăng lên trong chương trình của mình, bạn sẽ cần sử dụng <strong>let</strong>:
                 </p>
                 <br />
-                <img src={logo8} slt="TMT" /> 
+                <img src={logo8} alt="TMT" /> 
 
 
             </div>

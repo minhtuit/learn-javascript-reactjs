@@ -14,7 +14,7 @@ function CacKieuDuLieu(props) {
                     <li>Kiểu Null</li>
                 </ol>
             </h2>
-            <img src={dataType} atl="data type image" />
+            <img src={dataType} alt="data type" />
         </div>
     );
 }

@@ -12,7 +12,7 @@ function ChuoiTrongJs(props) {
                     <li>charCodeAt(): Nó cung cấp giá trị Unicode của 1 kí tự có trong chỉ mục được chỉ định.</li>
                     <li>concat(): Nó cung cấp 1 sự kết hợp của hai hoặc nhiều chuỗi.</li>
                     <li>indexOf(): Nó cung cấp vị trí cuả 1 giá trị char có trong chuỗi đã cho.</li>
-                    <li>lastlndexOf(): Nó cung cấp vị trí cuả 1 giá trị char có trong chuỗi đã cho bằng cách tìm kiếm một kí tự từ vị trí cuối cùng.</li>
+                    <li>laaltndexOf(): Nó cung cấp vị trí cuả 1 giá trị char có trong chuỗi đã cho bằng cách tìm kiếm một kí tự từ vị trí cuối cùng.</li>
                     <li>search(): Nó tìm kiếm một biểu thức chính quy trong một chuỗi đã cho trả về vị trí của nó nếu xảy ra khớp.</li>
                     <li>match(): Nó tìm kiếm một biểu thức chính quy trong một chuỗi đã cho trả về biểu thức chính quy nếu xảy ra khớp.</li>
                     <li>replace(): Nó thay thế 1 chuỗi nhất định với sự thay thế được chỉ định.</li>

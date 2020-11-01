@@ -33,7 +33,7 @@ function Ham(props) {
                 Đây là một ví dụ mã để mở rộng giải thích. Cố gắng tìm ra những gì sẽ được in trong Đầu ra # 1 đến # 4 (4 dòng cuối cùng):
             </p>
             <br />
-            <img src={function2} slt="TMT" />
+            <img src={function2} alt="TMT" />
             <br />
             <p>
                 Ví dụ này có một hàm thông thường <strong>(regularF)</strong> và một hàm mũi tên <strong>(arrowF)</strong> 
@@ -60,31 +60,31 @@ function Ham(props) {
                 Một điều thú vị khác về các hàm mũi tên là nếu hàm chỉ có một dòng trả về:
             </p>
             <br />
-            <img src={function3} slt="TMT" />
+            <img src={function3} alt="TMT" />
             <br />
             <p>
                 Bạn có thể làm cho nó ngắn gọn hơn nữa bằng cách loại bỏ hoàn toàn các dấu ngoặc nhọn và từ khóa return.
             </p>
             <br />
-            <img src={function4} slt="TMT" /> 
+            <img src={function4} alt="TMT" /> 
             <br />
             <p>
                 Bạn cũng có thể xóa dấu ngoặc đơn xung quanh đối số nếu hàm nhận được một đối số:
             </p>
             <br />
-            <img src={function5} slt="TMT" /> 
+            <img src={function5} alt="TMT" /> 
             <br />
             <p>
                 Cú pháp ngắn hơn nhiều này thường phổ biến cho các chức năng mà có được truyền cho phương pháp mảng như <strong>map</strong>, <strong>reduce</strong>, <strong>filter</strong>, 
                 và các phương pháp lập trình chức năng khác:
             </p>
-            <img src={function6} slt="TMT" /> 
+            <img src={function6} alt="TMT" /> 
             <br />
             <p>
             Lưu ý rằng nếu bạn muốn sử dụng phiên bản một hàm mũi tên để tạo một hàm trả về một đối tượng, bạn sẽ phải đặt đối tượng đó trong dấu ngoặc đơn vì nếu không thì các dấu ngoặc nhọn
             sẽ thực sự dành cho phạm vi của hàm.
             </p>
-            <img src={function7} slt="TMT" /> 
+            <img src={function7} alt="TMT" /> 
 
 
         </div>

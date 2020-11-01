@@ -15,23 +15,21 @@ function Cackyhieuchu(props) {
             cách phổ biến nhất là với một đối tượng theo nghĩa đen (sử dụng dấu ngoặc nhọn):
             </p>
             <br />
-            <p>
-                Đối tượng theo nghĩa đen:
-            </p>
-            <img src={literal1} slt="TMT" /> 
+            <p> Đối tượng theo nghĩa đen:</p>
+            <img src={literal1} alt="TMT" /> 
             <p>Ký hiệu chữ này (ký hiệu bộ khởi tạo AKA) rất phổ biến. Chúng tôi sử dụng nó cho các đối tượng, mảng, chuỗi, số và thậm chí những thứ như biểu thức chính quy!</p>
             <br />
             <p>Đối với mảng, cú pháp chữ là sử dụng một tập hợp các dấu ngoặc vuông []:</p>
             <br />
             <p>Mảng chữ:</p>
-            <img src={literal2} slt="TMT" /> 
+            <img src={literal2} alt="TMT" /> 
             <br />
             <p>Đối với chuỗi, bạn có thể sử dụng dấu nháy đơn hoặc dấu nháy kép:</p>
-            <img src={literal3} slt="TMT" /> 
+            <img src={literal3} alt="TMT" /> 
             <p>2 cách này để xác định chuỗi ký tự trong JavaScript là tương đương nhau. JavaScript hiện đại có cách thứ ba để xác định chuỗi và đó là sử dụng ký tự backtick .</p>
-            <img src={literal4} slt="TMT" /> 
+            <img src={literal4} alt="TMT" /> 
             <p>Dán nó vào bảng điều khiển của trình duyệt của bạn và xem cách nó tạo thành một chuỗi nhiều dòng có giá trị ngẫu nhiên:</p>
-            <img src={literal5} slt="TMT" /> 
+            <img src={literal5} alt="TMT" /> 
 
         </div>
     );
