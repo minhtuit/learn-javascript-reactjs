@@ -25,6 +25,8 @@ import BlockScropes from './BlockScopes';
 import Ham from './Ham';
 import Cackyhieuchu from './Cackyhieuchu';
 import GitCommand from './GitCommand';
+import Map from './Map';
+import Lifecyle from './Lifecyle';
 
 function App () {
     return (
@@ -135,7 +137,7 @@ function App () {
                     <a href="#JSX11">Lifecyle Component trong ReactJS</a>
                 </li>
                 <li>
-                    <a href="#JSX12">State trong ReactJS</a>
+                    <a href="#JSX12">Map 1 array ra các phần tử JSX</a>
                 </li>
             </h2>
             <KhaiBaoBien id="JS1"/>
@@ -166,6 +168,8 @@ function App () {
             <Styles id="JSX8" />
             <Props id="JSX9" />
             <State id="JSX10" />
+            <Lifecyle id="JSX11" />
+            <Map id="JSX12" />
         </div>
     )
 }
