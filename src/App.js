@@ -27,6 +27,7 @@ import Cackyhieuchu from './Cackyhieuchu';
 import GitCommand from './GitCommand';
 import Map from './Map';
 import Lifecyle from './Lifecyle';
+import Typescript from './Typescript';
 
 function App () {
     return (
@@ -122,10 +123,10 @@ function App () {
                     <a href="#JSX6">Câu lệnh import trong ReactJS</a>
                 </li>
                 <li>
-                    <a href="#JSX7">Các cấu trúc của 1 compoment trong ReactJs</a>
+                    <a href="#JSX7">Các cấu trúc của 1 component trong ReactJs</a>
                 </li>
                 <li>
-                    <a href="#JSX8">Style compoment trong ReactJs</a>
+                    <a href="#JSX8">Style component trong ReactJs</a>
                 </li>
                 <li>
                     <a href="#JSX9">Props trong react</a>
@@ -138,6 +139,9 @@ function App () {
                 </li>
                 <li>
                     <a href="#JSX12">Map 1 array ra các phần tử JSX</a>
+                </li>
+                <li>
+                    <a href="#TSX1">Typescript component  </a>
                 </li>
             </h2>
             <KhaiBaoBien id="JS1"/>
@@ -170,6 +174,7 @@ function App () {
             <State id="JSX10" />
             <Lifecyle id="JSX11" />
             <Map id="JSX12" />
+            <Typescript id="TSX1" />
         </div>
     )
 }
