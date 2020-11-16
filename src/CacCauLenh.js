@@ -4,6 +4,10 @@ import image2 from './image/image2.png';
 import image3 from './image/image3.png';
 import image4 from './image/image4.png';
 import image5 from './image/image5.png';
+import pwdCommand from './image/pwd_command.png';
+import clearCommand from './image/clear_command.png';
+import lsCommand from './image/ls_command.png';
+import mkdirCommand from './image/mkdir_command.png';
 
 
 function CacCauLenh (props) {
@@ -22,8 +26,14 @@ function CacCauLenh (props) {
                     <img src={image4} alt="Tran Minh Tu" />
                     <li>Di chuyển thư mục cha (thư mục truớc):</li>
                     <img src={image5} alt="Tran Minh Tu" />
-                    <li>Đường dẫn tron terminal</li>
-                    
+                    <li>Hiển thị đường dẫn tới thư mục hiện tại trong terminal</li>
+                    <img src={pwdCommand} alt="pwdCommand" />
+                    <li>Xoá hết chữ trên terminal</li>
+                    <img src={clearCommand} alt="clearCommand" />
+                    <li>Hiển thị danh sách các file và thư mục trong thư mục hiện tại</li>
+                    <img src={lsCommand} alt="Ls Command" />
+                    <li>Tạo 1 thư mục mới</li>
+                    <img src={mkdirCommand} alt="mkdir" />
                 </ul>
             </h2>
         </div>
