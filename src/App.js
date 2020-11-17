@@ -28,6 +28,7 @@ import GitCommand from './GitCommand';
 import Map from './Map';
 import Lifecyle from './Lifecyle';
 import Typescript from './Typescript';
+import Destructuring from './Destructuring';
 
 function App () {
     return (
@@ -102,6 +103,9 @@ function App () {
                 <li>
                     <a href="#All3">The literal notations</a>
                 </li>
+                <li> 
+                    <a href="#TSX3">Destructuring in ES6 </a>
+                </li>
             </h2>
 
             <h1>Mục lục ôn tập ReactJs:</h1>
@@ -156,10 +160,13 @@ function App () {
             <Str id="JS10" />
             <ChuoiTrongJs id="JS11" />
             <HtmlVsJs id="JS12" />
+            <hr />
 
             <BlockScropes id="All1" />
             <Ham id="All2" />
             <Cackyhieuchu id="All3" />
+            <Destructuring id="TSX3" />
+            <hr />
 
             <CacCauLenh id="JSX1" />
             <GitCommand id="git1"/>
